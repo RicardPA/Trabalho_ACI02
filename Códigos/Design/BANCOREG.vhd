@@ -1,3 +1,9 @@
+--------------------------------------------------------%
+-- BANCO DE REGISTRADORES 8BITS                         %
+-- Entradas: e1, e2, e3, e4, e5, e6, e7, e8 e clk       %
+-- Saidas: s1, s2, s3, s4, s5, s6, s7, s8               %
+-- Dependencias: REG8BITS                               %
+--------------------------------------------------------% 
 library ieee;
 use ieee.std_logic_1164.all;
 

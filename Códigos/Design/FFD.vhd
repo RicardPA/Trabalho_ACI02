@@ -1,3 +1,9 @@
+--------------------------------------------------------%
+-- Flip-Flop tipo D                                     %
+-- Entradas: D e clk                                    %
+-- Saidas: Q                                            %
+-- Dependencias: NULL                                   %
+--------------------------------------------------------% 
 library ieee;
 use ieee.std_logic_1164.all;
 

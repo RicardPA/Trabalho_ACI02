@@ -1,3 +1,9 @@
+--------------------------------------------------------%
+-- Flip-Flop tipo D                                     %
+-- Entradas: D e clk                                    %
+-- Saidas: Q                                            %
+-- Dependencias: NULL                                   %
+--------------------------------------------------------% 
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -21,7 +27,7 @@ uut: FFD
 port map(D => D_tb,
          clk => clk_tb,
          Q => Q_tb);
-
+--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 tb: process
 begin
 
@@ -32,6 +38,15 @@ wait for 100 ns;
 D_tb <= '1';
 clk_tb <= '0';
 wait for 100 ns;
+
+D_tb <= '1';
+clk_tb <= '1';
+wait for 100 ns;
+
+D_tb <= '0';
+clk_tb <= '0';
+wait for 100 ns;
 wait;
 end process;
+--||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 end arch_FFD_Tb;

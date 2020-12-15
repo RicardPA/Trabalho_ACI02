@@ -1,3 +1,9 @@
+--------------------------------------------------------%
+-- REGISTRADOR 8BITS                                    %
+-- Entradas: e1 e e2                                    %
+-- Saidas: s                                            %
+-- Dependencias: FFD                                    %
+--------------------------------------------------------% 
 library ieee;
 use ieee.std_logic_1164.all;
 
